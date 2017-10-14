@@ -1,0 +1,33 @@
+@font-face {
+    font-family: helveticaNeue;
+    src: url(../fonts/helveticaNeue.otf);
+}
+@font-face {
+    font-family: coolvetica;
+    src: url(../fonts/coolvetica.ttf);
+}
+.regalab-login-frase{
+    font-family: helveticaNeue;
+}
+
+.regalab-login-logo{
+    width: 40%;
+}
+#main{
+    width: 520px !important;
+}
+.button.regalab-input-buscador{
+    width: 500%;
+}
+.regalab-mensaje-bienvenida{
+    font-family: helveticaNeue;
+    display: block;
+    text-align: center;
+}
+.regalab-foto-perfil{
+    margin-bottom: 60% !important;
+    display: block;
+    margin: auto;
+    width: 64%;
+    border-radius: 50%;
+}

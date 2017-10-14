@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Identity by HTML5 UP</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link href="vendor/identity/css/main.css" rel="stylesheet" type="text/css"/>
+        <link href="css/regalab.css" rel="stylesheet" type="text/css"/>
+        <noscript><link href="vendor/identity/css/noscript.css" rel="stylesheet" type="text/css"/></noscript>
+
+    </head>
+    <body class="is-loading">
+        <div id="wrapper">
+            <section id="main" class="regalab-seccion-principal">
+              
+                    <img class="regalab-login-logo" src="image/regalab2.png" alt="Paquete_proveta"/>
+                    <h1 class="regalab-login-frase">Regalab</h1>
+                    <p>Te ayudamos a quedar bien</p>
+
+                <footer>
+                    <button>Hola! Aca va el boton de FB </button>
+                </footer>
+            </section>
+
+            <!-- Footer -->
+            <footer id="footer">
+                <ul class="copyright">
+                    <li>&copy;Regalab</li><li>Contacto:<a href="html/home.html">regalab@gmail.com</a></li>
+                </ul>
+            </footer>
+
+        </div>
+    </body>
+    <!--[if lte IE 8]><script src="assets/js/respond.min.js"></script><![endif]-->
+    <script>
+        if ('addEventListener' in window) {
+            window.addEventListener('load', function () {
+                document.body.className = document.body.className.replace(/\bis-loading\b/, '');
+            });
+            document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+        }
+    </script>
+</html>
